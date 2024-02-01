@@ -14,21 +14,20 @@ brew 'ffmpeg'
 brew 'gh'
 brew 'git'
 brew 'grep'
-brew 'httpie'
-brew 'jq' # Used for spatie/visit
 brew 'mackup'
-brew 'mas' # Mac App Store manager
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 brew 'stripe/stripe-cli/stripe'
 brew 'stripe/stripe-mock/stripe-mock'
 brew 'svn' # Needed to install fonts
 brew 'protobuf'
 brew 'grpc'
+brew 'wget'
 
 # Development
 brew 'node'
 brew 'redis'
 brew 'node'
+brew 'helm'
 
 # Apps
 cask 'discord'
@@ -39,9 +38,9 @@ cask 'github'
 cask 'google-chrome'
 cask 'pastebot'
 cask 'slack'
-cask 'tableplus'
 cask 'visual-studio-code'
-cask 'zoom'
+cask 'rectangle'
+cask 'postman'
 
 # Fonts
 cask 'font-lato'
@@ -53,4 +52,4 @@ cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 
 # Mac App Store
-mas 'Keynote', id: 409183694
+# mas 'Keynote', id: 409183694
